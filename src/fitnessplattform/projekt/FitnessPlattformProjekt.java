@@ -25,6 +25,10 @@ public class FitnessPlattformProjekt extends Application {
                 System.out.println("Hello World!");
                 System.out.println("Hello World!");
                 System.out.println("Hello World!");
+                System.out.println("Hello World!");
+                System.out.println("Hello World!");
+                System.out.println("Hello World!");
+                System.out.println("Hello World!");
             }
         });
 
