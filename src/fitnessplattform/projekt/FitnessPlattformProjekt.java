@@ -27,6 +27,9 @@ public class FitnessPlattformProjekt extends Application {
             }
         });
 
+        System.out.println("ttttttttttttttttttttttttttttttt");
+        System.out.println("ttttttttttttttttttttttttttttttt");
+        System.out.println("ttttttttttttttttttttttttttttttt");
         StackPane root = new StackPane();
         root.getChildren().add(btn);
 
