@@ -16,7 +16,6 @@ public class FitnessPlattformProjekt extends Application {
 
     @Override
     public void start(Stage primaryStage) {
-        System.out.println("ttttttttttttttttttttttttttttttt");
         Button btn = new Button();
         btn.setText("Say 'Hello World'");
         btn.setOnAction(new EventHandler<ActionEvent>() {
@@ -27,9 +26,6 @@ public class FitnessPlattformProjekt extends Application {
             }
         });
 
-        System.out.println("ttttttttttttttttttttttttttttttt");
-        System.out.println("ttttttttttttttttttttttttttttttt");
-        System.out.println("ttttttttttttttttttttttttttttttt");
         StackPane root = new StackPane();
         root.getChildren().add(btn);
 
