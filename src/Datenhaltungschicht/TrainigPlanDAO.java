@@ -1,4 +1,4 @@
-package Datensichtschicht;
+package Datenhaltungschicht;
 
 public interface TrainigPlanDAO {
 }

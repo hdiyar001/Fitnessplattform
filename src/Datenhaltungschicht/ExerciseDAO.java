@@ -1,4 +1,5 @@
-package Datensichtschicht;
+package Datenhaltungschicht;
 
 public interface ExerciseDAO {
+
 }
