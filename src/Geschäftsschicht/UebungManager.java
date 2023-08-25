@@ -1,4 +1,5 @@
 package Geschäftsschicht;
 
-public class UserManager {
+public class UebungManager {
+
 }
