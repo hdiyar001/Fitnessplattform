@@ -1,4 +1,4 @@
-package Präsentationsschicht;
+package UI;
 
 public class RegistrationView {
 }

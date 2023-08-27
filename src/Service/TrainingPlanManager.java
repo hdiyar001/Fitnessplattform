@@ -1,4 +1,4 @@
-package Geschäftsschicht;
+package Service;
 
 public class TrainingPlanManager {
 }

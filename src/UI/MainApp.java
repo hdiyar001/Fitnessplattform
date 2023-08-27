@@ -1,6 +1,5 @@
-package Präsentationsschicht;
+package UI;
 
-import java.util.ArrayList;
 import javafx.application.Application;
 import javafx.fxml.FXMLLoader;
 import javafx.scene.Parent;
@@ -13,8 +12,8 @@ public class MainApp extends Application {
     @Override
     public void start(Stage primaryStage) throws Exception {
         Parent root = FXMLLoader.load(getClass().getResource("SignUp.fxml"));
-        primaryStage.getIcons().add(new Image(""));
-        primaryStage.setScene(new Scene(root, 600, 500));
+        primaryStage.getIcons().add(new Image(MainApp.class.getResourceAsStream("/Images/icons8_customer_52px_2.png")));
+        primaryStage.setScene(new Scene(root));
         primaryStage.show();
     }
 

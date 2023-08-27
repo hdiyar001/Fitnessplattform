@@ -1,4 +1,4 @@
-package Datenhaltungschicht;
+package Database;
 
 /**
  *

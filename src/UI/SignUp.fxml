@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<!--fx.controller="SignUpController"-->
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="300.0" prefWidth="500.0" style="-fx-background-color: white;" styleClass="MainPanel" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1">
+    <Label alignment="CENTER" contentDisplay="CENTER" layoutX="206.0" layoutY="32.0" text="Login" textAlignment="CENTER">
+        <font>
+            <Font name="System Bold" size="34.0" />
+        </font>
+    </Label>
+    <Button fx:id="loginBtn" layoutX="146.0" layoutY="189.0" prefHeight="35.0" prefWidth="209.0" stylesheets="@../Styling/SignUpView.css" text="Login">
+      <font>
+         <Font name="System Bold" size="14.0" />
+      </font>
+   </Button>
+    <TextField layoutX="146.0" layoutY="101.0" prefHeight="35.0" prefWidth="209.0" promptText="Username" />
+    <Label layoutX="150.0" layoutY="250.0" prefHeight="17.0" prefWidth="112.0" text="Not a member?" textFill="#3c3a3a" />
+    <Label layoutX="243.0" layoutY="248.0" prefHeight="17.0" prefWidth="102.0" text="Sign Up!" textFill="#1100ffd3" underline="true">
+        <font>
+            <Font name="System Bold" size="15.0" />
+        </font>
+    </Label>
+    <TextField layoutX="146.0" layoutY="142.0" prefHeight="35.0" prefWidth="209.0" promptText="Password" />
+</AnchorPane>
