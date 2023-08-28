@@ -1,4 +1,4 @@
-package UI;
+package Controllers;
 
 public class RegistrationView {
 }
