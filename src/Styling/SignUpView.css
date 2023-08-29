@@ -2,8 +2,17 @@
 /*#FED700 Yellow
   #807d6e Grey
 */
-#loginBtn{
+.button{
     /*-fx-background-color:#FED700;*/
     -fx-background-color:red;
     -fx-background-radius:50;
+}
+.button:hover {
+    -fx-background:linear-gradient(to bottom, #ce0100 5%, #fe1a00 100%);
+    -fx-background-color:#ce0100;
+    -fx-background-image: linear-gradient(120deg, #f6d365 0%, #fda085  100%);
+}
+.button:active {
+    -fx-position:relative;
+    -fx-top:1px;
 }

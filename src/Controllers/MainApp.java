@@ -11,7 +11,7 @@ public class MainApp extends Application {
 
     @Override
     public void start(Stage primaryStage) throws Exception {
-        Parent root = FXMLLoader.load(getClass().getResource("/UI/SignUpWindow.fxml"));
+        Parent root = FXMLLoader.load(getClass().getResource("/UI/LogInWindow.fxml"));
         primaryStage.getIcons().add(new Image(MainApp.class.getResourceAsStream("/Images/User.png")));
         primaryStage.setScene(new Scene(root));
         primaryStage.show();
