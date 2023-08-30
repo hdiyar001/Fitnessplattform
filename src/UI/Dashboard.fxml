@@ -24,6 +24,7 @@
                 <ColorAdjust contrast="1.0" />
             </effect>
             <children>
+<<<<<<< HEAD
                 <VBox id="vboxSidebar" layoutY="272.0" prefHeight="312.0" prefWidth="63.0" spacing="30.0">
                     <children>
                         <Button id="sidebarBtn" mnemonicParsing="false">
@@ -79,6 +80,63 @@
                         </Button>
                     </children>
                 </VBox>
+=======
+            <VBox id="vboxSidebar" layoutY="272.0" prefHeight="312.0" prefWidth="63.0" spacing="30.0">
+               <children>
+                  <Button id="sidebarBtn" mnemonicParsing="false" stylesheets="@../Styling/SignUpView.css">
+                     <graphic>
+                        <ImageView fitHeight="35.0" fitWidth="35.0" pickOnBounds="true" preserveRatio="true">
+                           <image>
+                              <Image url="@../Images/dashboard.png" />
+                           </image>
+                        </ImageView>
+                     </graphic>
+                     <VBox.margin>
+                        <Insets />
+                     </VBox.margin>
+                     <cursor>
+                        <Cursor fx:constant="HAND" />
+                     </cursor>
+                  </Button>
+                      <Button id="sidebarBtn" mnemonicParsing="false">
+                          <graphic>
+                              <ImageView fitHeight="35.0" fitWidth="35.0" pickOnBounds="true" preserveRatio="true">
+                                  <image>
+                                      <Image url="@../Images/dumbbellImg.png" />
+                                  </image>
+                              </ImageView>
+                          </graphic>
+                     <cursor>
+                        <Cursor fx:constant="HAND" />
+                     </cursor>
+                      </Button>
+                      <Button id="sidebarBtn" mnemonicParsing="false">
+                          <graphic>
+                              <ImageView fitHeight="35.0" fitWidth="35.0" pickOnBounds="true" preserveRatio="true">
+                                  <image>
+                                      <Image url="@../Images/chartImg.png" />
+                                  </image>
+                              </ImageView>
+                          </graphic>
+                     <cursor>
+                        <Cursor fx:constant="HAND" />
+                     </cursor>
+                      </Button>
+                  <Button id="sidebarBtn" mnemonicParsing="false">
+                     <graphic>
+                            <ImageView fitHeight="33.0" fitWidth="32.0" pickOnBounds="true" preserveRatio="true">
+                                <image>
+                                    <Image url="@../Images/settingsImg.png" />
+                                </image>
+                            </ImageView>
+                     </graphic>
+                     <cursor>
+                        <Cursor fx:constant="HAND" />
+                     </cursor>
+                  </Button>
+               </children>
+            </VBox>
+>>>>>>> e7b5adb6c73e305fe29e48d6f28309e5d76cfd66
                 <ImageView fitHeight="58.0" fitWidth="58.0" layoutX="3.0" layoutY="6.0" opacity="0.99" pickOnBounds="true" preserveRatio="true" AnchorPane.topAnchor="5.0">
                     <image>
                         <Image url="@../Images/pulseAppLogo2.png" />
@@ -109,6 +167,7 @@
             </effect>
         </AnchorPane>
     </right>
+<<<<<<< HEAD
     <center>
         <StackPane prefHeight="150.0" prefWidth="200.0" BorderPane.alignment="CENTER">
             <children>
@@ -345,6 +404,35 @@
                                             </font>
                                         </Label>
                               <Label alignment="CENTER" contentDisplay="CENTER" layoutX="544.0" layoutY="360.0" opacity="0.73" prefHeight="37.0" prefWidth="186.0" text="Status" textAlignment="CENTER" textFill="WHITE" GridPane.columnIndex="1" GridPane.rowIndex="2">
+=======
+   <center>
+      <StackPane prefHeight="150.0" prefWidth="200.0" BorderPane.alignment="CENTER">
+         <children>
+            <GridPane alignment="CENTER" style="-fx-background-color: white;">
+              <columnConstraints>
+                <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+                <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+                  <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+                  <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+              </columnConstraints>
+              <rowConstraints>
+                <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+              </rowConstraints>
+               <children>
+                  <Button id="boxes" maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" minHeight="-Infinity" minWidth="-Infinity" mnemonicParsing="false" prefHeight="334.0" prefWidth="334.0">
+                     <GridPane.margin>
+                        <Insets bottom="15.0" left="30.0" right="30.0" top="30.0" />
+                     </GridPane.margin>
+                     <cursor>
+                        <Cursor fx:constant="HAND" />
+                     </cursor>
+                     <graphic>
+                        <VBox prefHeight="200.0" prefWidth="100.0">
+                           <children>
+                              <Label alignment="CENTER_RIGHT" text="PROGRESS">
+>>>>>>> e7b5adb6c73e305fe29e48d6f28309e5d76cfd66
                                  <font>
                                     <Font name="Arial" size="21.0" />
                                  </font>
@@ -402,10 +490,258 @@
                                 <Pane prefHeight="298.0" prefWidth="1254.0" VBox.vgrow="SOMETIMES" />
                             </children>
                         </VBox>
+<<<<<<< HEAD
                     </children>
                 </AnchorPane>
                 <AnchorPane id="exercise" layoutX="10.0" layoutY="10.0" prefHeight="200.0" prefWidth="200.0" style="-fx-background-color: white;" />
             </children>
         </StackPane>
     </center>
+=======
+                     </graphic>
+                  </Button>
+                  <Button id="boxes" layoutX="10.0" layoutY="10.0" maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" minHeight="-Infinity" minWidth="-Infinity" mnemonicParsing="false" prefHeight="334.0" prefWidth="334.0" GridPane.columnIndex="1">
+                     <GridPane.margin>
+                        <Insets bottom="15.0" left="30.0" right="30.0" top="30.0" />
+                     </GridPane.margin>
+                     <cursor>
+                        <Cursor fx:constant="HAND" />
+                     </cursor>
+                     <graphic>
+                        <GridPane>
+                          <columnConstraints>
+                            <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+                            <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+                          </columnConstraints>
+                          <rowConstraints>
+                            <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                            <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                            <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                          </rowConstraints>
+                        </GridPane>
+                     </graphic>
+                  </Button>
+                  <Button id="boxes" layoutX="308.0" layoutY="10.0" maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" minHeight="-Infinity" minWidth="-Infinity" mnemonicParsing="false" prefHeight="334.0" prefWidth="334.0" GridPane.columnIndex="2">
+                     <GridPane.margin>
+                        <Insets bottom="15.0" left="30.0" right="30.0" top="30.0" />
+                     </GridPane.margin>
+                     <cursor>
+                        <Cursor fx:constant="HAND" />
+                     </cursor>
+                     <graphic>
+                        <GridPane>
+                          <columnConstraints>
+                            <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+                            <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+                          </columnConstraints>
+                          <rowConstraints>
+                            <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                            <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                            <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                          </rowConstraints>
+                        </GridPane>
+                     </graphic>
+                  </Button>
+                  <Button id="boxes" layoutX="605.0" layoutY="10.0" maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" minHeight="-Infinity" minWidth="-Infinity" mnemonicParsing="false" prefHeight="334.0" prefWidth="334.0" GridPane.columnIndex="3">
+                     <GridPane.margin>
+                        <Insets bottom="15.0" left="30.0" right="30.0" top="30.0" />
+                     </GridPane.margin>
+                     <cursor>
+                        <Cursor fx:constant="HAND" />
+                     </cursor>
+                  </Button>
+                  <Button id="boxes" layoutX="902.0" layoutY="10.0" maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" minHeight="-Infinity" minWidth="-Infinity" mnemonicParsing="false" prefHeight="334.0" prefWidth="334.0" GridPane.columnIndex="1" GridPane.rowIndex="1">
+                     <GridPane.margin>
+                        <Insets bottom="15.0" left="30.0" right="30.0" top="30.0" />
+                     </GridPane.margin>
+                     <cursor>
+                        <Cursor fx:constant="HAND" />
+                     </cursor>
+                  </Button>
+                  <Button id="boxes" layoutX="10.0" layoutY="326.0" maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" minHeight="-Infinity" minWidth="-Infinity" mnemonicParsing="false" prefHeight="334.0" prefWidth="334.0" GridPane.columnIndex="2" GridPane.rowIndex="1">
+                     <GridPane.margin>
+                        <Insets bottom="15.0" left="30.0" right="30.0" top="30.0" />
+                     </GridPane.margin>
+                     <cursor>
+                        <Cursor fx:constant="HAND" />
+                     </cursor>
+                  </Button>
+                  <Button id="boxes" layoutX="308.0" layoutY="326.0" maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" minHeight="-Infinity" minWidth="-Infinity" mnemonicParsing="false" prefHeight="334.0" prefWidth="334.0" GridPane.rowIndex="1">
+                     <GridPane.margin>
+                        <Insets bottom="15.0" left="30.0" right="30.0" top="30.0" />
+                     </GridPane.margin>
+                     <cursor>
+                        <Cursor fx:constant="HAND" />
+                     </cursor>
+                     <graphic>
+                        <VBox prefHeight="200.0" prefWidth="100.0">
+                           <children>
+                              <Label alignment="CENTER_RIGHT" text="SCHEDULE">
+                                 <font>
+                                    <Font name="Arial Bold" size="16.0" />
+                                 </font>
+                                 <VBox.margin>
+                                    <Insets left="10.0" top="10.0" />
+                                 </VBox.margin>
+                              </Label>
+                           </children>
+                        </VBox>
+                     </graphic>
+                  </Button>
+                  <Button id="boxes" layoutX="605.0" layoutY="326.0" maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" minHeight="-Infinity" minWidth="-Infinity" mnemonicParsing="false" prefHeight="334.0" prefWidth="334.0" GridPane.columnIndex="3" GridPane.rowIndex="1">
+                     <GridPane.margin>
+                        <Insets bottom="15.0" left="30.0" right="30.0" top="30.0" />
+                     </GridPane.margin>
+                     <cursor>
+                        <Cursor fx:constant="HAND" />
+                     </cursor>
+                  </Button>
+                  <Button id="boxes" layoutX="902.0" layoutY="326.0" maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" minHeight="-Infinity" minWidth="-Infinity" mnemonicParsing="false" prefHeight="334.0" prefWidth="334.0" GridPane.rowIndex="2">
+                     <GridPane.margin>
+                        <Insets bottom="15.0" left="30.0" right="30.0" top="30.0" />
+                     </GridPane.margin>
+                     <cursor>
+                        <Cursor fx:constant="HAND" />
+                     </cursor>
+                  </Button>
+                  <Button id="boxes" layoutX="10.0" layoutY="641.0" maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" minHeight="-Infinity" minWidth="-Infinity" mnemonicParsing="false" prefHeight="334.0" prefWidth="334.0" GridPane.columnIndex="1" GridPane.rowIndex="2">
+                     <GridPane.margin>
+                        <Insets bottom="15.0" left="30.0" right="30.0" top="30.0" />
+                     </GridPane.margin>
+                     <cursor>
+                        <Cursor fx:constant="HAND" />
+                     </cursor>
+                  </Button>
+                  <Button id="boxes" layoutX="308.0" layoutY="641.0" maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" minHeight="-Infinity" minWidth="-Infinity" mnemonicParsing="false" prefHeight="334.0" prefWidth="334.0" GridPane.columnIndex="2" GridPane.rowIndex="2">
+                     <GridPane.margin>
+                        <Insets bottom="15.0" left="30.0" right="30.0" top="30.0" />
+                     </GridPane.margin>
+                     <cursor>
+                        <Cursor fx:constant="HAND" />
+                     </cursor>
+                  </Button>
+                  <Button id="boxes" layoutX="605.0" layoutY="641.0" maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" minHeight="-Infinity" minWidth="-Infinity" mnemonicParsing="false" prefHeight="334.0" prefWidth="334.0" GridPane.columnIndex="3" GridPane.rowIndex="2">
+                     <GridPane.margin>
+                        <Insets bottom="15.0" left="30.0" right="30.0" top="30.0" />
+                     </GridPane.margin>
+                     <cursor>
+                        <Cursor fx:constant="HAND" />
+                     </cursor>
+                     <graphic>
+                        <GridPane>
+                          <columnConstraints>
+                            <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+                            <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+                          </columnConstraints>
+                          <rowConstraints>
+                            <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                            <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                            <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                          </rowConstraints>
+                           <children>
+                              <HBox prefHeight="100.0" prefWidth="200.0" GridPane.rowIndex="1" />
+                           </children>
+                        </GridPane>
+                     </graphic>
+                  </Button>
+               </children>
+               <StackPane.margin>
+                  <Insets />
+               </StackPane.margin>
+            </GridPane>
+            <AnchorPane layoutX="10.0" layoutY="10.0" prefHeight="200.0" prefWidth="200.0" style="-fx-background-color: white;" />
+            <AnchorPane prefHeight="200.0" prefWidth="200.0" style="-fx-background-color: white;">
+               <children>
+                  <VBox alignment="CENTER" layoutX="15.0" layoutY="15.0" prefHeight="200.0" prefWidth="100.0" spacing="30.0" AnchorPane.bottomAnchor="15.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+                     <children>
+                        <GridPane alignment="TOP_CENTER" prefHeight="477.0" prefWidth="1224.0" style="-fx-background-color: grey;">
+                          <columnConstraints>
+                            <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+                            <ColumnConstraints halignment="CENTER" maxWidth="350.0" minWidth="350.0" prefWidth="350.0" />
+                              <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+                          </columnConstraints>
+                          <rowConstraints>
+                            <RowConstraints maxHeight="648.0" minHeight="350.0" prefHeight="616.0" vgrow="NEVER" />
+                              <RowConstraints maxHeight="350.0" minHeight="52.0" prefHeight="84.0" vgrow="NEVER" />
+                          </rowConstraints>
+                           <children>
+                              <Button maxHeight="562.0" maxWidth="350.0" minHeight="-Infinity" minWidth="-Infinity" mnemonicParsing="false" prefHeight="341.0" prefWidth="350.0" style="-fx-background-radius: 100 10 100 10; -fx-background-color: red;" textAlignment="CENTER" GridPane.columnIndex="1">
+                                 <cursor>
+                                    <Cursor fx:constant="HAND" />
+                                 </cursor>
+                                 <padding>
+                                    <Insets bottom="20.0" left="20.0" right="20.0" top="20.0" />
+                                 </padding>
+                                 <graphic>
+                                    <ImageView fitHeight="270.0" fitWidth="270.0" pickOnBounds="true" preserveRatio="true">
+                                       <image>
+                                          <Image url="@../../../../../Pictures/me/meD.jpeg" />
+                                       </image>
+                                    </ImageView>
+                                 </graphic>
+                              </Button>
+                              <Label alignment="CENTER" contentDisplay="CENTER" prefHeight="52.0" prefWidth="186.0" text="Diyar Hasan" textAlignment="CENTER" textFill="WHITE" GridPane.columnIndex="1" GridPane.rowIndex="1">
+                                 <font>
+                                    <Font name="Arial Bold" size="18.0" />
+                                 </font>
+                              </Label>
+                           </children>
+                        </GridPane>
+                        <HBox alignment="CENTER" minHeight="-Infinity" prefHeight="100.0" prefWidth="200.0" spacing="15.0">
+                           <children>
+                              <Label prefHeight="78.0" prefWidth="130.0" text="XXX" textAlignment="CENTER">
+                                 <font>
+                                    <Font name="Arial Bold" size="13.0" />
+                                 </font>
+                              </Label>
+                              <Label layoutX="10.0" layoutY="10.0" prefHeight="78.0" prefWidth="130.0" text="XXX" textAlignment="CENTER">
+                                 <font>
+                                    <Font name="Arial Bold" size="13.0" />
+                                 </font>
+                              </Label>
+                              <Label layoutX="630.0" layoutY="21.0" prefHeight="78.0" prefWidth="130.0" text="XXX" textAlignment="CENTER">
+                                 <font>
+                                    <Font name="Arial Bold" size="13.0" />
+                                 </font>
+                              </Label>
+                              <Label layoutX="702.0" layoutY="21.0" prefHeight="78.0" prefWidth="130.0" text="XXX" textAlignment="CENTER">
+                                 <font>
+                                    <Font name="Arial Bold" size="13.0" />
+                                 </font>
+                              </Label>
+                           </children>
+                        </HBox>
+                        <HBox alignment="CENTER" layoutX="10.0" layoutY="351.0" minHeight="-Infinity" prefHeight="100.0" prefWidth="200.0" spacing="15.0">
+                           <children>
+                              <Label prefHeight="78.0" prefWidth="130.0" text="10000 Calories " textAlignment="CENTER">
+                                 <font>
+                                    <Font name="Arial Bold" size="13.0" />
+                                 </font>
+                              </Label>
+                              <Label prefHeight="78.0" prefWidth="130.0" text="22 BMI" textAlignment="CENTER">
+                                 <font>
+                                    <Font name="Arial Bold" size="13.0" />
+                                 </font>
+                              </Label>
+                              <Label layoutX="630.0" layoutY="21.0" prefHeight="78.0" prefWidth="130.0" text="70kg Weight " textAlignment="CENTER">
+                                 <font>
+                                    <Font name="Arial Bold" size="13.0" />
+                                 </font>
+                              </Label>
+                              <Label layoutX="702.0" layoutY="21.0" prefHeight="78.0" prefWidth="130.0" text="165cm Height" textAlignment="CENTER">
+                                 <font>
+                                    <Font name="Arial Bold" size="13.0" />
+                                 </font>
+                              </Label>
+                           </children>
+                        </HBox>
+                        <Pane prefHeight="298.0" prefWidth="1254.0" VBox.vgrow="SOMETIMES" />
+                     </children>
+                  </VBox>
+               </children>
+            </AnchorPane>
+         </children>
+      </StackPane>
+   </center>
+>>>>>>> e7b5adb6c73e305fe29e48d6f28309e5d76cfd66
 </BorderPane>

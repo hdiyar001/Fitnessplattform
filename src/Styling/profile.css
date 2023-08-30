@@ -1,4 +1,5 @@
 
+<<<<<<< HEAD
 .button {
     -fx-background-radius: 100 10 100 10;
     -fx-background-color: red;
@@ -10,3 +11,13 @@
     -fx-background-color:#ce0100;
 
 }
+=======
+.button:hover {
+    -fx-background:linear-gradient(to bottom, #ce0100 5%, #fe1a00 100%);
+    -fx-background-color:#ce0100;
+}
+.button:active {
+    -fx-position:relative;
+    -fx-top:1px;
+}
+>>>>>>> e7b5adb6c73e305fe29e48d6f28309e5d76cfd66
