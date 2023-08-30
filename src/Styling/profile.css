@@ -1,0 +1,9 @@
+
+.button:hover {
+    -fx-background:linear-gradient(to bottom, #ce0100 5%, #fe1a00 100%);
+    -fx-background-color:#ce0100;
+}
+.button:active {
+    -fx-position:relative;
+    -fx-top:1px;
+}
