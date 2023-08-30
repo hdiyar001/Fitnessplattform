@@ -9,7 +9,7 @@
 }
 #sidebarBtn:hover{
     -fx-background-color:darkred;
-
+    -fx-cursor: hand;
 }
 
 #vboxSidebar{
