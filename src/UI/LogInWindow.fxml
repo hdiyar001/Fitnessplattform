@@ -5,32 +5,15 @@
 <?import javafx.scene.control.PasswordField?>
 <?import javafx.scene.control.TextField?>
 <?import javafx.scene.layout.AnchorPane?>
-<?import javafx.scene.text.Font?>
 
-<!--fx.controller="SignUpController"-->
+<AnchorPane id="MainPanel" prefHeight="300.0" prefWidth="500.0" styleClass="MainPanel" stylesheets="@../Styling/Login.css" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Controllers.LoginController">
 
-<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="300.0" prefWidth="500.0" style="-fx-background-color: white;" styleClass="MainPanel" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Controllers.LoginController">
-    <Label alignment="CENTER" contentDisplay="CENTER" layoutX="206.0" layoutY="14.0" text="Login" textAlignment="CENTER">
-        <font>
-            <Font name="System Bold" size="34.0" />
-        </font>
-    </Label>
-    <Button fx:id="btn_login" layoutX="146.0" layoutY="171.0" onAction="#login" prefHeight="35.0" prefWidth="209.0" stylesheets="@../Styling/SignUpView.css" text="Login">
-        <font>
-            <Font name="System Bold" size="14.0" />
-        </font>
-    </Button>
-    <TextField fx:id="tf_userNameLogin" layoutX="146.0" layoutY="83.0" prefHeight="35.0" prefWidth="209.0" promptText="Username / Email" />
-    <Label layoutX="166.0" layoutY="251.0" prefHeight="17.0" prefWidth="112.0" text="Not a member?" textFill="#3c3a3a" />
-    <Label fx:id="lbl_signup" layoutX="259.0" layoutY="249.0" prefHeight="17.0" prefWidth="102.0" text="Sign Up!" textFill="#1100ffd3" underline="true">
-        <font>
-            <Font name="System Bold" size="15.0" />
-        </font>
-    </Label>
-    <Label fx:id="lbl_forgotPass" layoutX="183.0" layoutY="212.0" prefHeight="21.0" prefWidth="137.0" text="Forgot your password?" textFill="#2752ffb5" underline="true">
-        <font>
-            <Font size="13.0" />
-        </font>
-    </Label>
-    <PasswordField fx:id="tf_passwordLogin" layoutX="146.0" layoutY="124.0" prefHeight="35.0" prefWidth="209.0" promptText="Password" />
+    <Label fx:id="lbl_title" layoutX="206.0" layoutY="14.0" styleClass="lbl_title" text="Login" />
+    <Button fx:id="btn_login" layoutX="146.0" layoutY="171.0" onAction="#login" styleClass="btn_login" text="Login" />
+    <TextField fx:id="tf_userNameLogin" layoutX="146.0" layoutY="83.0" promptText="Username / Email" style="-fx-pref-height: 35.0; -fx-pref-width: 209.0;;" />
+    <Label id="lbl_notMember" fx:id="lbl_notMember" layoutX="166.0" layoutY="251.0" text="Not a member?" />
+    <Label id="lbl_signup" fx:id="lbl_signup" layoutX="259.0" layoutY="249.0" styleClass="lbl_signup" text="Sign Up!" underline="true" />
+    <Label fx:id="lbl_forgotPass" layoutX="183.0" layoutY="212.0" styleClass="lbl_forgotPass" text="Forgot your password?" underline="true" />
+    <PasswordField fx:id="tf_passwordLogin" layoutX="146.0" layoutY="124.0" promptText="Password" style="-fx-pref-height: 35.0; -fx-pref-width: 209.0;;" />
+
 </AnchorPane>
