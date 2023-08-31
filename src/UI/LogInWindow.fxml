@@ -32,5 +32,5 @@
             <Font size="13.0" />
         </font>
     </Label>
-   <PasswordField fx:id="tf_passwordLogin" layoutX="146.0" layoutY="124.0" prefHeight="35.0" prefWidth="209.0" promptText="Password" />
+    <PasswordField fx:id="tf_passwordLogin" layoutX="146.0" layoutY="124.0" prefHeight="35.0" prefWidth="209.0" promptText="Password" />
 </AnchorPane>
