@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.layout.BorderPane?>
+
+
+<BorderPane prefHeight="800.0" prefWidth="1000.0" stylesheets="@../Styles/Dashboard.css" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" 
+            fx:controller="Controllers.ClientController">
+    <left>
+        <fx:include source="DashboardMenu.fxml"/>
+    </left>
+    <center>
+        <fx:include source="DashboardWindow.fxml"/>
+    </center>
+   
+</BorderPane>

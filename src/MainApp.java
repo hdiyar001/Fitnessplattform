@@ -1,4 +1,4 @@
-package Controllers;
+
 
 import javafx.application.Application;
 import javafx.fxml.FXMLLoader;
@@ -11,8 +11,8 @@ public class MainApp extends Application {
 
     @Override
     public void start(Stage primaryStage) throws Exception {
-        Parent root = FXMLLoader.load(getClass().getResource("/UI/LogInWindow.fxml"));
-        primaryStage.getIcons().add(new Image(MainApp.class.getResourceAsStream("/Images/pulseAppLogo2.png")));
+        Parent root = FXMLLoader.load(getClass().getResource("/resources/UI/LogInWindow.fxml"));
+        primaryStage.getIcons().add(new Image(MainApp.class.getResourceAsStream("/resources/Images/pulseAppLogo2.png")));
         primaryStage.setScene(new Scene(root));
         primaryStage.show();
     }

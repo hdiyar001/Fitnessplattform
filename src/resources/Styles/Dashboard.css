@@ -1,0 +1,11 @@
+.logo_logo_container{
+    -fx-background-color: #132A13;
+    -fx-alignment: center;
+}
+.logo_logo_container Text{
+    -fx-font-size:2em;
+    -fx-fill:#FFFFFF;
+}
+.logo_logo_container FontAwesomeIconView{
+    -fx-fill:#ECF39E;
+}

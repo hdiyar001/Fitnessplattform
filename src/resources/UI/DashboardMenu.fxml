@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import de.jensd.fx.glyphs.fontawesome.FontAwesomeIconView?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.shape.Line?>
+<?import javafx.scene.text.Text?>
+
+<VBox maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="800.0" prefWidth="200.0" styleClass="main-menau_container" stylesheets="@../Styles/DashboardMenu.css" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" 
+      fx:controller="Controllers.DashboardMenuController">
+    <children>
+        <AnchorPane prefHeight="780.0" prefWidth="180.0" styleClass="left-containe">
+            <children>
+                <VBox layoutY="-19.0" prefHeight="101.0" prefWidth="200.0" styleClass="title-container" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+                    <children>
+                        <FontAwesomeIconView glyphName="DASHBOARD" size="30" />
+                        <Text strokeType="OUTSIDE" strokeWidth="0.0" text="Fitness App" />
+                    </children>
+                </VBox>
+                <VBox prefHeight="600.0" prefWidth="180.0" styleClass="menu_container" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="100.0">
+                    <children>
+                        <Button fx:id="dashboard_btn" mnemonicParsing="false" text="Dashboard">
+                            <graphic>
+                                <FontAwesomeIconView glyphName="HOME" size="20" />
+                            </graphic>
+                        </Button>
+                        <Button fx:id="exercise_btn" layoutX="10.0" layoutY="10.0" mnemonicParsing="false" text="Exercise">
+                            <graphic>
+                                <FontAwesomeIconView glyphName="EXERCIES" size="20" />
+                            </graphic>
+                        </Button>
+                        <Button fx:id="statistics_btn" layoutX="10.0" layoutY="35.0" mnemonicParsing="false" text="Statistics">
+                            <graphic>
+                                <FontAwesomeIconView glyphName="STAISTIC" size="20" />
+                            </graphic>
+                        </Button>
+                        <Line endX="140.0" />
+                        <Button fx:id="settings_btn" layoutX="10.0" layoutY="60.0" mnemonicParsing="false" styleClass="alt_menu_btn" text="Settings">
+                            <graphic>
+                                <FontAwesomeIconView glyphName="SETTING" size="20" />
+                            </graphic>
+                        </Button>
+                        <Button fx:id="account_btn" layoutX="10.0" layoutY="85.0" mnemonicParsing="false" styleClass="alt_menu_btn" text="Account">
+                            <graphic>
+                                <FontAwesomeIconView glyphName="USER" size="20" />
+                            </graphic>
+                        </Button>
+                        <Button fx:id="logout_btn" layoutX="10.0" layoutY="123.0" mnemonicParsing="false" styleClass="alt_menu_btn" text="Logout">
+                            <graphic>
+                                <FontAwesomeIconView glyphName="EXTERNAL_LINK" size="20" />
+                            </graphic>
+                        </Button>
+                    </children>
+                </VBox>
+                <VBox prefHeight="140.0" prefWidth="200.0" styleClass="report_container" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="14.0" AnchorPane.rightAnchor="14.0">
+                    <children>
+                        <Text strokeType="OUTSIDE" strokeWidth="0.0" text="Report Suggestion or Bug?" />
+                        <Label text="Use this to report any errors or suggestion" />
+                        <Button fx:id="report_btn" mnemonicParsing="false" text="Report">
+                            <graphic>
+                                <FontAwesomeIconView glyphName="PLUS" size="20" />
+                            </graphic>
+                        </Button>
+                    </children>
+                </VBox>
+            </children>
+        </AnchorPane>
+    </children>
+</VBox>
