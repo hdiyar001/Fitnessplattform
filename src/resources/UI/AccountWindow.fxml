@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane prefHeight="800.0" prefWidth="1000.0" stylesheets="@../Styles/Account.css" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1">
+    <children>
+        <Pane layoutX="327.0" layoutY="6.0" prefHeight="200.0" prefWidth="200.0" styleClass="main_container" AnchorPane.bottomAnchor="500.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+         <children>
+            <Button fx:id="profile_btn" layoutX="415.0" layoutY="12.0" mnemonicParsing="false" prefHeight="220.0" prefWidth="200.0" styleClass="profileImage_Container_btn">
+               <graphic>
+                  <ImageView fitHeight="189.0" fitWidth="156.0" pickOnBounds="true" preserveRatio="true" styleClass="ImageView">
+                     <image>
+                        <Image url="@../../../../../../Pictures/me/meD.jpeg" />
+                     </image>
+                  </ImageView>
+               </graphic>
+            </Button>
+            <Text layoutX="483.0" layoutY="253.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Diyar Hasan" />
+            <Text layoutX="498.0" layoutY="277.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Status" />
+         </children></Pane>
+        <HBox layoutX="363.0" layoutY="308.0" prefHeight="40.0" prefWidth="317.0" styleClass="HBox_Container1" AnchorPane.topAnchor="308.0">
+         <children>
+            <Text strokeType="OUTSIDE" strokeWidth="0.0" text="165cm" wrappingWidth="66.9847640991211" />
+            <Text layoutX="10.0" layoutY="23.0" strokeType="OUTSIDE" strokeWidth="0.0" text="70kg" />
+            <Text layoutX="33.0" layoutY="23.0" strokeType="OUTSIDE" strokeWidth="0.0" text="23" wrappingWidth="22.993749618530273" />
+            <Text layoutX="56.0" layoutY="23.0" strokeType="OUTSIDE" strokeWidth="0.0" text="2000" />
+         </children></HBox>
+        <Pane layoutX="-6.0" layoutY="378.0" prefHeight="422.0" prefWidth="1000.0" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="378.0" />
+        <HBox layoutX="363.0" layoutY="350.0" prefHeight="40.0" prefWidth="317.0" styleClass="HBox_Container2" AnchorPane.topAnchor="350.0">
+         <children>
+            <Text strokeType="OUTSIDE" strokeWidth="0.0" text="height" wrappingWidth="65.67578125" />
+            <Text layoutX="10.0" layoutY="23.0" strokeType="OUTSIDE" strokeWidth="0.0" text="weight" />
+            <Text layoutX="33.0" layoutY="23.0" strokeType="OUTSIDE" strokeWidth="0.0" text="BMI" wrappingWidth="26.017187118530273" />
+            <Text layoutX="56.0" layoutY="23.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Calories" wrappingWidth="60.30155944824219" />
+         </children></HBox>
+    </children>
+</AnchorPane>

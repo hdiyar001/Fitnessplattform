@@ -5,6 +5,7 @@ import java.util.ResourceBundle;
 import javafx.fxml.FXML;
 import javafx.fxml.Initializable;
 import javafx.scene.control.Button;
+import Modell.Modell;
 
 /**
  *
@@ -35,7 +36,19 @@ public class DashboardMenuController implements Initializable {
 
     @Override
     public void initialize(URL location, ResourceBundle resources) {
-
+        addListener();
     }
 
+    private void addListener() {
+        dashboard_btn.setOnAction((e) -> onDashboard());
+        account_btn.setOnAction((e) -> onAccount());
+    }
+
+    private void onDashboard() {
+        Modell.getInstance().getViewFacotry().getClientSelectedMenuItem().set("Dashboard");
+    }
+
+    private void onAccount() {
+        Modell.getInstance().getViewFacotry().getClientSelectedMenuItem().set("Account");
+    }
 }

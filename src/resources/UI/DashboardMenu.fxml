@@ -8,8 +8,7 @@
 <?import javafx.scene.shape.Line?>
 <?import javafx.scene.text.Text?>
 
-<VBox maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="800.0" prefWidth="200.0" styleClass="main-menau_container" stylesheets="@../Styles/DashboardMenu.css" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" 
-      fx:controller="Controllers.DashboardMenuController">
+<VBox maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="800.0" prefWidth="200.0" styleClass="main-menau_container" stylesheets="@../Styles/DashboardMenu.css" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Controllers.DashboardMenuController">
     <children>
         <AnchorPane prefHeight="780.0" prefWidth="180.0" styleClass="left-containe">
             <children>
@@ -28,18 +27,18 @@
                         </Button>
                         <Button fx:id="exercise_btn" layoutX="10.0" layoutY="10.0" mnemonicParsing="false" text="Exercise">
                             <graphic>
-                                <FontAwesomeIconView glyphName="EXERCIES" size="20" />
+                                <FontAwesomeIconView glyphName="HOME" size="20" />
                             </graphic>
                         </Button>
                         <Button fx:id="statistics_btn" layoutX="10.0" layoutY="35.0" mnemonicParsing="false" text="Statistics">
                             <graphic>
-                                <FontAwesomeIconView glyphName="STAISTIC" size="20" />
+                                <FontAwesomeIconView glyphName="HOME" size="20" />
                             </graphic>
                         </Button>
                         <Line endX="140.0" />
                         <Button fx:id="settings_btn" layoutX="10.0" layoutY="60.0" mnemonicParsing="false" styleClass="alt_menu_btn" text="Settings">
                             <graphic>
-                                <FontAwesomeIconView glyphName="SETTING" size="20" />
+                                <FontAwesomeIconView glyphName="HOME" size="20" />
                             </graphic>
                         </Button>
                         <Button fx:id="account_btn" layoutX="10.0" layoutY="85.0" mnemonicParsing="false" styleClass="alt_menu_btn" text="Account">
