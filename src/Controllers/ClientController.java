@@ -26,6 +26,12 @@ public class ClientController implements Initializable {
                     client_parent.setCenter(Modell.getInstance().getViewFacotry().getAccountView());
                 case "Dashboard" ->
                     client_parent.setCenter(Modell.getInstance().getViewFacotry().getDashBoardView());
+                case "Workout" ->
+                    client_parent.setCenter(Modell.getInstance().getViewFacotry().getWorkoutView());
+                case "Settings" ->
+                    client_parent.setCenter(Modell.getInstance().getViewFacotry().getSettingsView());
+                case "Statistic" ->
+                    client_parent.setCenter(Modell.getInstance().getViewFacotry().getStatisticView());
 
             }
         });

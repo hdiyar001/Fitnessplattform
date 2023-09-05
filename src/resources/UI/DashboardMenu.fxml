@@ -8,9 +8,9 @@
 <?import javafx.scene.shape.Line?>
 <?import javafx.scene.text.Text?>
 
-<VBox maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="800.0" prefWidth="200.0" styleClass="main-menau_container" stylesheets="@../Styles/DashboardMenu.css" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Controllers.DashboardMenuController">
+<VBox maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="800.0" prefWidth="200.0" style="-fx-background-color: #ECF39E;" styleClass="main-menau_container" stylesheets="@../Styles/DashboardMenu.css" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Controllers.DashboardMenuController">
     <children>
-        <AnchorPane prefHeight="780.0" prefWidth="180.0" styleClass="left-containe">
+        <AnchorPane maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" minHeight="-Infinity" minWidth="-Infinity" prefWidth="180.0" styleClass="left-containe">
             <children>
                 <VBox layoutY="-19.0" prefHeight="101.0" prefWidth="200.0" styleClass="title-container" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
                     <children>
@@ -18,7 +18,7 @@
                         <Text strokeType="OUTSIDE" strokeWidth="0.0" text="Fitness App" />
                     </children>
                 </VBox>
-                <VBox prefHeight="600.0" prefWidth="180.0" styleClass="menu_container" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="100.0">
+                <VBox prefHeight="600.0" prefWidth="180.0" styleClass="menu_container" AnchorPane.bottomAnchor="20.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="100.0">
                     <children>
                         <Button fx:id="dashboard_btn" mnemonicParsing="false" text="Dashboard">
                             <graphic>

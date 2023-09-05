@@ -5,6 +5,7 @@ import javafx.beans.property.SimpleStringProperty;
 import javafx.beans.property.StringProperty;
 import javafx.fxml.FXMLLoader;
 import javafx.scene.Scene;
+import javafx.scene.image.Image;
 import javafx.scene.layout.AnchorPane;
 import javafx.stage.Stage;
 
@@ -18,6 +19,9 @@ public class ViewFactory {
     private final StringProperty clientSelectedMenuItem;
     private AnchorPane dashboardView;
     private AnchorPane AccountView;
+    private AnchorPane WorkoutView;
+    private AnchorPane SettingsView;
+    private AnchorPane StatisticView;
 
     public ViewFactory() {
         this.clientSelectedMenuItem = new SimpleStringProperty("");
@@ -40,6 +44,51 @@ public class ViewFactory {
 
         }
         return dashboardView;
+    }
+
+    public AnchorPane getWorkoutView() {
+        if (WorkoutView == null)
+        {
+            try
+            {
+                WorkoutView = new FXMLLoader(getClass().getResource("/resources/UI/WorkoutWindow.fxml")).load();
+            } catch (Exception e)
+            {
+                e.printStackTrace();
+            }
+
+        }
+        return WorkoutView;
+    }
+
+    public AnchorPane getSettingsView() {
+        if (SettingsView == null)
+        {
+            try
+            {
+                SettingsView = new FXMLLoader(getClass().getResource("/resources/UI/SettingsWindow.fxml")).load();
+            } catch (Exception e)
+            {
+                e.printStackTrace();
+            }
+
+        }
+        return SettingsView;
+    }
+
+    public AnchorPane getStatisticView() {
+        if (StatisticView == null)
+        {
+            try
+            {
+                StatisticView = new FXMLLoader(getClass().getResource("/resources/UI/StatisticWindow.fxml")).load();
+            } catch (Exception e)
+            {
+                e.printStackTrace();
+            }
+
+        }
+        return StatisticView;
     }
 
     public AnchorPane getAccountView() {
@@ -73,11 +122,18 @@ public class ViewFactory {
         try
         {
             scene = new Scene(loader.load());
+
         } catch (Exception e)
         {
             e.printStackTrace();
         }
         Stage stage = new Stage();
+
+        stage.setResizable(false);
+//        if (loader.getLocation().toString().endsWith("LogInWindow.fxml"))
+//        {
+//        }
+        stage.getIcons().add(new Image("/resources/Images/pulseAppLogo2.png"));
         stage.setScene(scene);
         stage.setTitle("ActiviWave Workouts");
         stage.show();

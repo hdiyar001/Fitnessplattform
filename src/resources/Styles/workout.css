@@ -1,0 +1,11 @@
+.main{
+    -fx-background-color: white
+}
+.add-button_img{
+    -fx-alignment: center;
+    -fx-padding: 0;
+    
+}
+.add-button_img:hover {
+    -fx-cursor: hand;
+}
