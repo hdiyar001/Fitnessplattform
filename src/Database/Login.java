@@ -1,12 +1,17 @@
 package Database;
 
+import java.sql.Connection;
+
 /**
  *
  * @author Diyar
  */
-public class Logins {
+public class Login {
 
-    public Logins() {
+    private Connection con;
+
+    public Login(Connection con) {
+        this.con = con;
     }
 
     public boolean emailExists(String email_Or_UserName) {

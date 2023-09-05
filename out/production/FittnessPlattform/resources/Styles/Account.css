@@ -1,0 +1,45 @@
+*{
+    -fx-background-color: white;
+}
+.main_container Text{
+    -fx-font-size: 1.1em;
+    -fx-effect:dropshadow(two-pass-box,#AAAAAA ,5,0,0,4);
+}
+.main_container ProgressBar{
+    -fx-cursor: hand;
+    -fx-background-color: red;
+    -fx-border-color:  red;
+}
+.HBox_Container1{
+    -fx-spacing: 40;
+    -fx-alignment: bottom-left;
+   
+}
+.HBox_Container2{
+    -fx-spacing: 40;
+    -fx-alignment: top-left;
+  
+}
+
+.HBox_Container1 Text{
+    -fx-font-size: 1.7em;
+    -fx-effect:dropshadow(two-pass-box,#AAAAAA ,5,0,0,4);
+    
+
+}
+.HBox_Container2 Text{-fx-alignment: TOP_CENTER;
+    -fx-font-size: 1.2em;
+    -fx-effect:dropshadow(three-pass-box,#AAAAAA ,5,0,0,4);
+
+}
+.profileImage_Container_btn{
+    -fx-background-color: red;
+    -fx-background-radius: 50 0 50 0;
+        
+}
+.profileImage_Container_btn:hover{
+    -fx-cursor:hand;
+    -fx-background:linear-gradient(to bottom, #c62d1f 5%, #f24537 100%);
+    -fx-background-color:#c62d1f;
+        
+}

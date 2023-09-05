@@ -1,5 +1,9 @@
 package Database;
 
+/**
+ *
+ * @author Diyar
+ */
 public interface UebungDAO {
 
     public void addUebung_ID(int id);

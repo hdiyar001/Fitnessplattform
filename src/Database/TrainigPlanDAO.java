@@ -1,5 +1,8 @@
 package Database;
-
+/**
+ *
+ * @author Diyar
+ */
 public interface TrainigPlanDAO {
 
     public void addPlan_ID(int id);

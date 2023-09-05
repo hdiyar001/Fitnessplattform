@@ -1,6 +1,6 @@
 package Controllers;
 
-import Database.Logins;
+import Database.Login;
 import Modell.Modell;
 import View.ViewFactory;
 import java.net.URL;
@@ -52,7 +52,7 @@ public class LoginController implements Initializable {
 
 //    @FXML
 //    public void login(ActionEvent e) {
-//        Logins loginDatabase = new Logins();
+//        Login loginDatabase = new Login();
 ////        Button b = (Button) e.getSource();
 //        System.out.println(e.getSource() == btn_login);
 ////        b.getScene().getWindow().hide();

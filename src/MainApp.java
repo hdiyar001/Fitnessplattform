@@ -3,6 +3,10 @@ import Modell.Modell;
 import javafx.application.Application;
 import javafx.stage.Stage;
 
+/**
+ *
+ * @author Diyar
+ */
 public class MainApp extends Application {
 
     @Override

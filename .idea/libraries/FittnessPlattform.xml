@@ -1,0 +1,11 @@
+<component name="libraryTable">
+  <library name="FittnessPlattform">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/mysql-connector-j-8.1.0.jar!/" />
+      <root url="jar://$PROJECT_DIR$/fontawesomefx-fontawesome-4.7.0-9.1.2.jar!/" />
+      <root url="jar://$PROJECT_DIR$/fontawesomefx-commons-9.1.2.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

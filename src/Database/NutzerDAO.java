@@ -1,5 +1,8 @@
 package Database;
-
+/**
+ *
+ * @author Diyar
+ */
 public interface NutzerDAO {
 
     public void addBenutzer_ID(int id);
