@@ -1,11 +1,8 @@
 package Controllers;
 
-import Database.Login;
 import Modell.Modell;
-import View.ViewFactory;
 import java.net.URL;
 import java.util.ResourceBundle;
-import javafx.event.ActionEvent;
 import javafx.fxml.FXML;
 import javafx.fxml.Initializable;
 import javafx.scene.control.Button;
@@ -40,6 +37,7 @@ public class LoginController implements Initializable {
     public void initialize(URL location, ResourceBundle resources) {
 
         btn_login.setOnAction((event) -> onLogin());
+        lbl_signup.setOnMouseClicked((event) -> onSignUp());
     }
 
     private void onLogin() {
@@ -47,6 +45,13 @@ public class LoginController implements Initializable {
         Stage stage = (Stage) btn_login.getScene().getWindow();
         Modell.getInstance().getViewFacotry().closeStage(stage);
         Modell.getInstance().getViewFacotry().showClientWindow();
+    }
+
+    private void onSignUp() {
+        Stage stage = (Stage) lbl_signup.getScene().getWindow();
+        Modell.getInstance().getViewFacotry().closeStage(stage);
+        Modell.getInstance().getViewFacotry().showSignUpWindow();
+
     }
 }
 

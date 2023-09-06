@@ -36,7 +36,7 @@ public class ViewFactory {
         {
             try
             {
-                dashboardView = new FXMLLoader(getClass().getResource("/resources/UI/DashboardWindow.fxml")).load();
+                dashboardView = new FXMLLoader(getClass().getResource("/resources/UI/Views/DashboardWindow.fxml")).load();
             } catch (Exception e)
             {
                 e.printStackTrace();
@@ -51,7 +51,7 @@ public class ViewFactory {
         {
             try
             {
-                WorkoutView = new FXMLLoader(getClass().getResource("/resources/UI/WorkoutWindow.fxml")).load();
+                WorkoutView = new FXMLLoader(getClass().getResource("/resources/UI/Views/WorkoutWindow.fxml")).load();
             } catch (Exception e)
             {
                 e.printStackTrace();
@@ -66,7 +66,7 @@ public class ViewFactory {
         {
             try
             {
-                SettingsView = new FXMLLoader(getClass().getResource("/resources/UI/SettingsWindow.fxml")).load();
+                SettingsView = new FXMLLoader(getClass().getResource("/resources/UI/Views/SettingsWindow.fxml")).load();
             } catch (Exception e)
             {
                 e.printStackTrace();
@@ -81,7 +81,7 @@ public class ViewFactory {
         {
             try
             {
-                StatisticView = new FXMLLoader(getClass().getResource("/resources/UI/StatisticWindow.fxml")).load();
+                StatisticView = new FXMLLoader(getClass().getResource("/resources/UI/Views/StatisticWindow.fxml")).load();
             } catch (Exception e)
             {
                 e.printStackTrace();
@@ -96,7 +96,7 @@ public class ViewFactory {
         {
             try
             {
-                AccountView = new FXMLLoader(getClass().getResource("/resources/UI/AccountWindow.fxml")).load();
+                AccountView = new FXMLLoader(getClass().getResource("/resources/UI/Views/AccountWindow.fxml")).load();
             } catch (Exception e)
             {
                 e.printStackTrace();
@@ -106,12 +106,17 @@ public class ViewFactory {
     }
 
     public void showLoginWindow() {
-        FXMLLoader loader = new FXMLLoader(getClass().getResource("/resources/UI/LogInWindow.fxml"));
+        FXMLLoader loader = new FXMLLoader(getClass().getResource("/resources/UI/Authentication/LogInWindow.fxml"));
+        createStage(loader);
+    }
+
+    public void showSignUpWindow() {
+        FXMLLoader loader = new FXMLLoader(getClass().getResource("/resources/UI/Authentication/SignUpWindow.fxml"));
         createStage(loader);
     }
 
     public void showClientWindow() {
-        FXMLLoader loader = new FXMLLoader(getClass().getResource("/resources/UI/ClientWindow.fxml"));
+        FXMLLoader loader = new FXMLLoader(getClass().getResource("/resources/UI/ScreenNavigation/ClientWindow.fxml"));
         ClientController clientController = new ClientController();
         loader.setController(clientController);
         createStage(loader);
