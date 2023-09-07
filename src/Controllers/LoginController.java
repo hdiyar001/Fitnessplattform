@@ -45,6 +45,7 @@ public class LoginController implements Initializable {
         Stage stage = (Stage) btn_login.getScene().getWindow();
         Modell.getInstance().getViewFacotry().closeStage(stage);
         Modell.getInstance().getViewFacotry().showClientWindow();
+        Modell.getInstance().getViewFacotry().getClientSelectedMenuItem().set("Dashboard");
     }
 
     private void onSignUp() {

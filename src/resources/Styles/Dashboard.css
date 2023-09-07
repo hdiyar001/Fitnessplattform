@@ -1,15 +1,23 @@
-
 .main{
-  -fx-background-color: #ECF39E;
+    -fx-background-color:linear-gradient(to right, rgba(38,60,164,1) 7%, rgba(37,117,195,1) 100%);
+    
 }
 .logo_logo_container{
-    -fx-background-color: #132A13;
+    -fx-background-color: white;
     -fx-alignment: center;
 }
 .logo_logo_container Text{
     -fx-font-size:2em;
     -fx-fill:#FFFFFF;
-}
+}   
 .logo_logo_container FontAwesomeIconView{
-    -fx-fill:#ECF39E;
+    -fx-fill:#ECF39E;   
+}
+.box-container{
+    -fx-background-color:linear-gradient(to right, rgba(38,60,164,1) 7%, rgba(37,117,195,1) 100%);
+    -fx-background-radius: 20;
+}
+.box-container2{
+    -fx-background-color:#3B45A8;
+    -fx-background-radius: 20;
 }

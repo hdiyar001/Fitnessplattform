@@ -10,9 +10,16 @@
 <?import javafx.scene.text.Font?>
 <?import javafx.scene.text.Text?>
 
-<AnchorPane prefHeight="46.0" prefWidth="1000.0" style="-fx-background-color: white;" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1">
+<AnchorPane prefHeight="40.0" prefWidth="1080.0" style="-fx-background-color: white;" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1">
    <children>
-      <Pane prefHeight="44.0" prefWidth="180.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="800.0" />
+      <Pane prefHeight="44.0" prefWidth="180.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="800.0">
+         <children>
+            <Text layoutX="51.0" layoutY="28.0" strokeType="OUTSIDE" strokeWidth="0.0" text="ActiviWave" wrappingWidth="98.13671875">
+               <font>
+                  <Font name="System Bold" size="17.0" />
+               </font>
+            </Text>
+         </children></Pane>
       <HBox layoutX="207.0" prefHeight="40.0" prefWidth="227.0" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="200.0" AnchorPane.topAnchor="0.0">
          <children>
             <Pane opacity="0.51" prefHeight="25.0" prefWidth="223.0" style="-fx-cursor: hand;">
@@ -20,7 +27,7 @@
                   <Line endX="93.0" layoutX="115.0" layoutY="43.0" startX="-98.0" />
                   <ImageView fitHeight="19.0" fitWidth="22.0" layoutX="184.0" layoutY="19.0" pickOnBounds="true" preserveRatio="true">
                      <image>
-                        <Image url="@../../../../../../AppData/Local/Temp/icons8_search_100px_1.png" />
+                        <Image url="@../../Images/pulseAppLogo2.png" />
                      </image>
                   </ImageView>
                   <Text layoutX="17.0" layoutY="31.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Search">
@@ -36,17 +43,17 @@
          <graphic>
             <ImageView fitHeight="40.0" fitWidth="50.0" pickOnBounds="true" preserveRatio="true">
                <image>
-                  <Image url="@../../../../../../AppData/Local/Temp/icons8_muscle_flexing_96px.png" />
+                  <Image url="@../../Images/pulseAppLogo2.png" />
                </image>
             </ImageView>
          </graphic>
       </Button>
-      <Text layoutX="858.0" layoutY="14.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Diyar Hasan" wrappingWidth="80.13671875" AnchorPane.bottomAnchor="-6.0" AnchorPane.topAnchor="18.0" />
+      <Text layoutX="930.0" layoutY="28.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Diyar Hasan" wrappingWidth="80.13671875" AnchorPane.bottomAnchor="16.98828125" AnchorPane.topAnchor="15.05078125" />
       <Button layoutX="920.0" layoutY="15.0" mnemonicParsing="false" prefHeight="58.0" prefWidth="66.0" style="-fx-background-color: white;" AnchorPane.bottomAnchor="0.0" AnchorPane.rightAnchor="10.0" AnchorPane.topAnchor="0.0">
          <graphic>
             <ImageView fitHeight="40.0" fitWidth="50.0" pickOnBounds="true" preserveRatio="true">
                <image>
-                  <Image url="@../../../../../../AppData/Local/Temp/icons8_germany_96px.png" />
+                  <Image url="@../../Images/pulseAppLogo2.png" />
                </image>
             </ImageView>
          </graphic>

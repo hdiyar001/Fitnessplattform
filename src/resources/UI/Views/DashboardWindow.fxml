@@ -1,34 +1,24 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
-<?import javafx.scene.control.Button?>
-<?import javafx.scene.control.Label?>
-<?import javafx.scene.control.ListView?>
+<?import javafx.scene.control.ScrollPane?>
 <?import javafx.scene.layout.AnchorPane?>
-<?import javafx.scene.layout.HBox?>
-<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.layout.Pane?>
 <?import javafx.scene.text.Text?>
 
-<AnchorPane prefHeight="800.0" prefWidth="1000.0" styleClass="main" stylesheets="@../../Styles/Dashboard.css" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Controllers.DashboardController">
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="650.0" prefWidth="880.0" styleClass="main" stylesheets="@../../Styles/Dashboard.css" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Controllers.DashboardController">
     <children>
         <Text strokeType="OUTSIDE" strokeWidth="0.0" text="Hi, Diyar" AnchorPane.leftAnchor="20.0" AnchorPane.topAnchor="30.0" />
-        <Label text="Label" AnchorPane.rightAnchor="14.0" AnchorPane.topAnchor="27.0" />
-        <Text layoutX="30.0" layoutY="53.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Rechts" AnchorPane.rightAnchor="14.0" AnchorPane.topAnchor="90.0" />
-        <Text layoutX="955.0" layoutY="103.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Links" AnchorPane.leftAnchor="20.0" AnchorPane.topAnchor="90.0" />
-        <HBox layoutX="20.0" layoutY="109.0" prefHeight="192.0" prefWidth="501.0" AnchorPane.leftAnchor="0.0" AnchorPane.topAnchor="109.0">
-            <children>
-                <AnchorPane prefHeight="192.0" prefWidth="273.0">
-                    <children>
-                        <Text layoutX="25.0" layoutY="27.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Diyar" />
-                    </children>
-                </AnchorPane>
-                <AnchorPane prefHeight="192.0" prefWidth="151.0" />
-                <AnchorPane prefHeight="200.0" prefWidth="200.0" />
-            </children>
-        </HBox>
-        <VBox layoutX="802.0" layoutY="123.0" prefHeight="200.0" prefWidth="196.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="123.0" />
-        <Text layoutX="20.0" layoutY="328.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Linksunten" />
-        <Text layoutX="955.0" layoutY="328.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Rechtsunten" />
-        <ListView layoutX="19.0" layoutY="345.0" prefHeight="441.0" prefWidth="665.0" AnchorPane.bottomAnchor="14.0" AnchorPane.leftAnchor="19.0" />
-        <Button fx:id="testBtn" layoutX="729.0" layoutY="566.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="282.0" text="testBtn" />
+      <ScrollPane layoutX="183.0" layoutY="274.0" prefHeight="208.0" prefWidth="880.0" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" />
+      <Pane layoutX="8.0" layoutY="71.0" prefHeight="170.0" prefWidth="513.0" styleClass="box-container" />
+      <Pane layoutX="548.0" layoutY="71.0" prefHeight="90.0" prefWidth="211.0" styleClass="box-container2" />
+      <Pane layoutX="548.0" layoutY="170.0" prefHeight="90.0" prefWidth="211.0" styleClass="box-container2" />
+      <Pane layoutX="8.0" layoutY="256.0" prefHeight="180.0" prefWidth="254.0" styleClass="box-container2">
+         <children>
+            <Pane layoutX="56.0" prefHeight="180.0" prefWidth="195.0" style="-fx-background-color: #333333;" styleClass="box-container2" />
+         </children>
+      </Pane>
+      <Pane layoutX="282.0" layoutY="256.0" prefHeight="180.0" prefWidth="109.0" styleClass="box-container2" />
+      <Pane layoutX="412.0" layoutY="256.0" prefHeight="180.0" prefWidth="109.0" styleClass="box-container2" />
+      <Pane layoutX="532.0" layoutY="261.0" prefHeight="170.0" prefWidth="347.0" styleClass="box-container" />
     </children>
 </AnchorPane>

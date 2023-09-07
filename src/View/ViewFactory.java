@@ -134,7 +134,7 @@ public class ViewFactory {
         }
         Stage stage = new Stage();
 
-        stage.setResizable(false);
+//        stage.setResizable(false);
 //        if (loader.getLocation().toString().endsWith("LogInWindow.fxml"))
 //        {
 //        }

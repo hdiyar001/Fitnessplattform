@@ -7,9 +7,9 @@
 <?import javafx.scene.layout.VBox?>
 <?import javafx.scene.text.Text?>
 
-<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="800.0" prefWidth="1000.0" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1">
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="660.0" prefWidth="880.0" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1">
     <children>
-        <VBox prefHeight="800.0" prefWidth="79.0" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="921.0" AnchorPane.topAnchor="0.0">
+        <VBox layoutX="14.0" layoutY="38.0" prefHeight="131.0" prefWidth="99.0" AnchorPane.bottomAnchor="491.0" AnchorPane.leftAnchor="14.0" AnchorPane.rightAnchor="767.0" AnchorPane.topAnchor="38.0">
             <children>
                 <Text strokeType="OUTSIDE" strokeWidth="0.0" text="Settings" />
                 <Button mnemonicParsing="false" text="My Info" />
@@ -18,12 +18,12 @@
                 <Button layoutX="10.0" layoutY="76.0" mnemonicParsing="false" text="Privacy" />
             </children>
         </VBox>
-      <StackPane layoutX="102.0" layoutY="21.0" prefHeight="686.0" prefWidth="878.0">
+      <StackPane layoutX="102.0" layoutY="21.0" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="600.0" prefWidth="700.0">
          <children>
-            <Pane prefHeight="200.0" prefWidth="200.0" style="-fx-background-color: red;" />
-            <Pane layoutX="10.0" layoutY="10.0" prefHeight="200.0" prefWidth="200.0" style="-fx-background-color: white;" />
-            <Pane layoutX="10.0" layoutY="10.0" prefHeight="200.0" prefWidth="200.0" style="-fx-background-color: blue;" />
-            <Pane layoutX="10.0" layoutY="10.0" prefHeight="200.0" prefWidth="200.0" style="-fx-background-color: white;" />
+            <Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="200.0" prefWidth="200.0" style="-fx-background-color: red;" />
+            <Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="200.0" prefWidth="200.0" style="-fx-background-color: white;" />
+            <Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="200.0" prefWidth="200.0" style="-fx-background-color: white;" />
+            <Pane layoutX="10.0" layoutY="10.0" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="571.0" prefWidth="715.0" style="-fx-background-color: blue;" />
          </children>
       </StackPane>
     </children>

@@ -8,17 +8,17 @@
 <?import javafx.scene.shape.Line?>
 <?import javafx.scene.text.Text?>
 
-<VBox maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="800.0" prefWidth="200.0" style="-fx-background-color: #ECF39E;" styleClass="main-menau_container" stylesheets="@../../Styles/DashboardMenu.css" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Controllers.DashboardMenuController">
+<VBox minHeight="-Infinity" minWidth="-Infinity" prefHeight="660.0" prefWidth="200.0" style="-fx-background-color: white;" styleClass="main-menau_container" stylesheets="@../../Styles/DashboardMenu.css" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Controllers.DashboardMenuController">
     <children>
-        <AnchorPane maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" minHeight="-Infinity" minWidth="-Infinity" prefWidth="180.0" styleClass="left-containe">
+        <AnchorPane maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" minHeight="-Infinity" minWidth="-Infinity" prefHeight="611.0" prefWidth="200.0" styleClass="left-containe">
             <children>
-                <VBox layoutY="-19.0" prefHeight="101.0" prefWidth="200.0" styleClass="title-container" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+                <VBox layoutY="53.0" prefHeight="70.0" prefWidth="200.0" styleClass="title-container" AnchorPane.bottomAnchor="20.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="53.0">
                     <children>
                         <FontAwesomeIconView glyphName="DASHBOARD" size="30" />
                         <Text strokeType="OUTSIDE" strokeWidth="0.0" text="Fitness App" />
                     </children>
                 </VBox>
-                <VBox prefHeight="600.0" prefWidth="180.0" styleClass="menu_container" AnchorPane.bottomAnchor="20.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="100.0">
+                <VBox layoutY="122.0" prefHeight="467.0" prefWidth="200.0" styleClass="menu_container" AnchorPane.bottomAnchor="31.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="122.0">
                     <children>
                         <Button fx:id="dashboard_btn" mnemonicParsing="false" text="Dashboard">
                             <graphic>
@@ -51,17 +51,17 @@
                                 <FontAwesomeIconView glyphName="EXTERNAL_LINK" size="20" />
                             </graphic>
                         </Button>
-                    </children>
-                </VBox>
-                <VBox prefHeight="140.0" prefWidth="200.0" styleClass="report_container" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="14.0" AnchorPane.rightAnchor="14.0">
-                    <children>
-                        <Text strokeType="OUTSIDE" strokeWidth="0.0" text="Report Suggestion or Bug?" />
-                        <Label text="Use this to report any errors or suggestion" />
-                        <Button fx:id="report_btn" mnemonicParsing="false" text="Report">
-                            <graphic>
-                                <FontAwesomeIconView glyphName="PLUS" size="20" />
-                            </graphic>
-                        </Button>
+                      <VBox prefHeight="140.0" prefWidth="200.0" styleClass="report_container">
+                          <children>
+                              <Text strokeType="OUTSIDE" strokeWidth="0.0" text="Report Suggestion or Bug?" />
+                              <Label text="Use this to report any errors or suggestion" />
+                              <Button fx:id="report_btn" mnemonicParsing="false" text="Report">
+                                  <graphic>
+                                      <FontAwesomeIconView glyphName="PLUS" size="20" />
+                                  </graphic>
+                              </Button>
+                          </children>
+                      </VBox>
                     </children>
                 </VBox>
             </children>

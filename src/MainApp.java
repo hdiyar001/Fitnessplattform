@@ -1,7 +1,9 @@
 
+import Database.DBConection;
 import Modell.Modell;
 import javafx.application.Application;
 import javafx.stage.Stage;
+import java.sql.Connection;
 
 /**
  *
@@ -16,6 +18,9 @@ public class MainApp extends Application {
     }
 
     public static void main(String[] args) {
+        Connection connection = DBConection.getInstance().getCon();
+
         launch();
+
     }
 }
