@@ -11,4 +11,7 @@
     </left>
     <center>
     </center>
+   <center>
+      <fx:include maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" source="DashboardWindow.fxml" BorderPane.alignment="CENTER" />
+   </center>
 </BorderPane>
