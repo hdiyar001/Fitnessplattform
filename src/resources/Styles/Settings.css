@@ -1,0 +1,33 @@
+*{
+    
+     -fx-font:  bold medium "Monospaced";   
+}
+.SideBar{
+    -fx-alignment: top-center;
+    -fx-spacing: 10px;
+    -fx-background-color: white;
+}
+.SideBar_title{
+   -fx-font:  bold x-large "Monospaced";  
+   
+   
+}
+
+.SideBar Button {
+    -fx-text-fill:  white;
+    -fx-pref-width: 100px;
+    -fx-pref-height: 40px;
+    -fx-background-radius: 5px;
+    -fx-background-color: #040f16;
+    
+    -fx-cursor: hand;
+}
+
+.SideBar Button:hover {
+    -fx-effect: dropshadow(gaussian, rgba(46, 46, 46, 0.50), 20, 0, 0, 0);
+}
+.Content{
+    -fx-background-color: white;
+    
+}
+

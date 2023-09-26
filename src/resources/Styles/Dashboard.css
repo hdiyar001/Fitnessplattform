@@ -1,6 +1,5 @@
 .main{
-    -fx-background-color:linear-gradient(to right, rgba(38,60,164,1) 7%, rgba(37,117,195,1) 100%);
-    
+    -fx-background-color:linear-gradient(to right,rgba(20,20,27,1) 10%, rgba(9,9,79,1) 50%, rgba(50,50,166,1) 90%);
 }
 .logo_logo_container{
     -fx-background-color: white;

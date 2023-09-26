@@ -1,3 +1,4 @@
+
 .main-menau_container{
     -fx-background-color: EEEEEE;
     -fx-alignment: center;
@@ -35,6 +36,7 @@
     -fx-effect: dropshadow(three-pass-box,#DDDDDD ,5,0,0,6);
 }
 .menu_container Button:hover{
+    -fx-effect: dropshadow(gaussian, rgba(46, 46, 46, 0.50), 20, 0, 0, 0);
     -fx-cursor:hand;
 }
 .menu_container Button FontAwesomeIconView{

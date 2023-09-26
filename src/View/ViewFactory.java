@@ -36,7 +36,7 @@ public class ViewFactory {
         {
             try
             {
-                dashboardView = new FXMLLoader(getClass().getResource("/resources/UI/Views/DashboardWindow.fxml")).load();
+                dashboardView = new FXMLLoader(getClass().getResource("/resources/UI/ScreenNavigation/DashboardWindow.fxml")).load();
             } catch (Exception e)
             {
                 e.printStackTrace();

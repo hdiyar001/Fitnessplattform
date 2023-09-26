@@ -22,12 +22,12 @@
                         </Button>
                         <Button fx:id="exercise_btn" layoutX="10.0" layoutY="10.0" mnemonicParsing="false" text="Exercise">
                             <graphic>
-                                <FontAwesomeIconView glyphName="HOME" size="20" />
+                                <FontAwesomeIconView glyphName="" size="20" />
                             </graphic>
                         </Button>
                         <Button fx:id="statistics_btn" layoutX="10.0" layoutY="35.0" mnemonicParsing="false" text="Statistics">
                             <graphic>
-                                <FontAwesomeIconView glyphName="HOME" size="20" />
+                                <FontAwesomeIconView glyphName="" size="20" />
                             </graphic>
                         </Button>
                         <Line endX="140.0" />

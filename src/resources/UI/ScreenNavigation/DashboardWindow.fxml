@@ -10,7 +10,7 @@
 <?import javafx.scene.layout.VBox?>
 <?import javafx.scene.text.Font?>
 
-<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="650.0" prefWidth="880.0" styleClass="main" stylesheets="@../../Styles/Dashboard.css" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Controllers.DashboardController">
+<AnchorPane maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" minHeight="-Infinity" minWidth="-Infinity" prefHeight="650.0" prefWidth="880.0" styleClass="main" stylesheets="@../../Styles/Dashboard.css" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Controllers.DashboardController">
     <children>
       <GridPane gridLinesVisible="true" maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
         <columnConstraints>
@@ -21,8 +21,9 @@
         <rowConstraints>
             <RowConstraints maxHeight="203.0" minHeight="10.0" prefHeight="203.0" vgrow="SOMETIMES" />
           <RowConstraints maxHeight="349.0" minHeight="0.0" prefHeight="60.0" vgrow="SOMETIMES" />
-          <RowConstraints maxHeight="349.0" minHeight="0.0" prefHeight="238.0" vgrow="SOMETIMES" />
-          <RowConstraints maxHeight="157.0" minHeight="10.0" prefHeight="137.0" vgrow="SOMETIMES" />
+          <RowConstraints maxHeight="349.0" minHeight="0.0" prefHeight="256.0" vgrow="SOMETIMES" />
+          <RowConstraints maxHeight="157.0" minHeight="10.0" prefHeight="69.0" vgrow="SOMETIMES" />
+            <RowConstraints maxHeight="157.0" minHeight="10.0" prefHeight="137.0" vgrow="SOMETIMES" />
         </rowConstraints>
          <children>
             <Pane prefWidth="323.0" styleClass="box-container" GridPane.columnSpan="2">
@@ -40,7 +41,7 @@
                   <Pane layoutX="156.0" prefWidth="195.0" style="-fx-background-color: #333333;" styleClass="box-container2" />
                </children>
             </Pane>
-            <Pane prefWidth="211.0" styleClass="box-container2" GridPane.columnIndex="2" GridPane.rowIndex="3" />
+            <Pane prefWidth="211.0" styleClass="box-container2" GridPane.columnIndex="2" GridPane.rowIndex="4" />
             <Pane prefWidth="109.0" styleClass="box-container2" GridPane.columnIndex="2" GridPane.rowIndex="2" />
             <VBox prefHeight="200.0" prefWidth="274.0" spacing="10.0" GridPane.columnIndex="2">
                <children>

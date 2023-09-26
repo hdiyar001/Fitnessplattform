@@ -13,7 +13,7 @@
 <?import javafx.scene.text.Font?>
 <?import javafx.scene.text.Text?>
 
-<AnchorPane prefHeight="18.0" prefWidth="1080.0" style="-fx-background-color: white;" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1">
+<AnchorPane prefHeight="18.0" prefWidth="1080.0" styleClass="main" stylesheets="@../../Styles/topBarMenu.css" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1">
    <children>
       <MenuBar prefHeight="1.0" prefWidth="1080.0" style="-fx-background-color: white;">
         <menus>
